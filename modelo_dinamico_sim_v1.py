@@ -324,7 +324,7 @@ if __name__ == "__main__":
     plt.plot(td, x[:, 4], label="E (g/L)")
     plt.axvline(x=t_proc/24, color="k", linestyle="--")
     plt.xlabel("Tiempo (días)")
-    plt.ylabel("Concentración")
+    plt.ylabel("Concentration (g/L) / (mg/L para N)")
     plt.legend()
     plt.tight_layout()
     plt.show()
